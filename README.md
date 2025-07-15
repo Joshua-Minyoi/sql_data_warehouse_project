@@ -14,14 +14,9 @@ Welcome to the **Data Warehouse and Analytics Project** repository!  This projec
 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-**Specifictaions**:
+**Data Analytics**
 
-- **Data Sources**: Import data from two source systems (ERP and CRM), provided in CSV format.
-- **Data Quality**: Clean and resolve data quality issues before analysis.
-- **Integration**: Consolidate both sources into a single, user-friendly data model optimised for analytical queries.
-- **Scope**: Focus exclusively on the most recent dataset; historization is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
+Develop SQL-based analytics to deliver detailed insights into customer behaviour, product performance and sales trends.
 
 ---  
 
