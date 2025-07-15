@@ -11,6 +11,7 @@ Welcome to the **Data Warehouse and Analytics Project** repository!  This projec
 ---
 
 **Data Engineering**
+
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 **Specifictaions**:
