@@ -26,7 +26,7 @@ It supports:
 ---
 
 The architecture follows the **Medallion model**, which organises data in layered stages for scalable analytics and data quality management.
-![Medallion Architecture Overview](images/data_architecture.png)
+![Medallion Architecture Overview](docs/data_architecture.png)
 
 
 -  **Bronze Layer**: Raw ingestion from CSV files (as-is data from ERP and CRM systems)
