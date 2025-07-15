@@ -29,9 +29,16 @@ The architecture follows the **Medallion model**, which organises data in layere
 ![Medallion Architecture Overview](docs/data_architecture.png)
 
 
--  **Bronze Layer**: Raw ingestion from CSV files (as-is data from ERP and CRM systems)
--  **Silver Layer**: Cleaned, structured, and standardised data ready for transformation
--  **Gold Layer**: Business-ready views for dashboards, advanced analytics, and machine learning use cases
+- **Bronze Layer – Raw Data Ingestion**  
+  Stores raw data exactly as received from source systems (ERP, CRM). Data is ingested from **CSV files** into **SQL Server staging tables** with no transformations, preserving the original format.
+
+- **Silver Layer – Cleansed and Structured Data**  
+  Transforms raw data through **cleansing, normalisation, and standardisation**. 
+
+- **Gold Layer – Business-Ready Data Models**  
+  Contains **refined and aggregated data** modelled in a **Star Schema** format. Designed for **BI dashboards, ad-hoc queries, and machine learning**, it includes calculated KPIs and logic aligned with business needs.
+
+
 
 
 
