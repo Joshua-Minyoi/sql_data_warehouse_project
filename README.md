@@ -14,7 +14,7 @@ This project aims to build a real-world data warehouse that consolidates data fr
 
 It supports:
 
-- 📊 **Tracking operational KPIs** for business intelligence (BI)
-- 📋 **Standardized reporting** across departments and systems
-- 🤖 **Advanced analytics**, including BI dashboards and machine learning use cases
-- 🧮 **Ad-hoc SQL queries** for custom insights and exploration
+-  **Tracking operational KPIs** for business intelligence (BI)
+-  **Standardized reporting** across departments and systems
+-  **Advanced analytics**, including BI dashboards and machine learning use cases
+-  **Ad-hoc SQL queries** for custom insights and exploration
