@@ -26,11 +26,12 @@ It supports:
 ---
 
 The architecture follows the **Medallion model**, which organises data in layered stages for scalable analytics and data quality management.
-docs/Data achitecture.png.png
+![Medallion Architecture](docs/Data achitecture.png.png)
 
-- 🟤 **Bronze Layer**: Raw ingestion from CSV files (as-is data from ERP and CRM systems)
-- ⚪ **Silver Layer**: Cleaned, structured, and standardised data ready for transformation
-- 🟡 **Gold Layer**: Business-ready views for dashboards, advanced analytics, and machine learning use cases
+
+-  **Bronze Layer**: Raw ingestion from CSV files (as-is data from ERP and CRM systems)
+-  **Silver Layer**: Cleaned, structured, and standardised data ready for transformation
+-  **Gold Layer**: Business-ready views for dashboards, advanced analytics, and machine learning use cases
 
 
 
