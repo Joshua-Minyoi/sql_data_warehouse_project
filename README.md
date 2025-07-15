@@ -10,14 +10,17 @@ Welcome to the **Data Warehouse and Analytics Project** repository!  This projec
 
 ---
 
-This project aims to build a real-world data warehouse that consolidates data from multiple operational systems ( **ERP**, **CRM**) into a centralised **SQL Server-based data warehouse**.
+**Data Engineering**
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-It supports:
+**Specifictaions**:
 
--  **Tracking operational KPIs** for business intelligence (BI)
--  **Standardized reporting** across departments and systems
--  **Advanced analytics**, including BI dashboards and machine learning use cases
--  **Ad-hoc SQL queries** for custom insights and exploration
+- **Data Sources**: Import data from two source systems (ERP and CRM), provided in CSV format.
+- **Data Quality**: Clean and resolve data quality issues before analysis.
+- **Integration**: Consolidate both sources into a single, user-friendly data model optimised for analytical queries.
+- **Scope**: Focus exclusively on the most recent dataset; historization is not required.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
 
 ---  
 
